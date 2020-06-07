@@ -9,22 +9,22 @@
         <div class="outer-wrapper">
             <div class="wrapper">
                 <div class="slide one">
-                    <h1 style="color: #FBCB07">Webserver (Node.js) </h1>
+                    <h1>(Node.js) </h1>
                     <iframe class="youtube" src="https://www.youtube.com/embed/videoseries?list=PLIhcadFe-zD-Z_rJ4-K5Pow0RZFISYuvp">
                     </iframe>
                 </div>
                 <div class="slide two">
-                <h1 style="color: #15213B">Internet of Things (Python 3) </h1>
+                <h1 style="color: #15213B !important">(Python 3) </h1>
                     <iframe class="youtube" src="https://www.youtube.com/embed/videoseries?list=PLIhcadFe-zD_niF4J0qVyLha2MOYWDiYc">
                     </iframe>
                 </div>
                 <div class="slide three">
-                    <h1 style="color: #FBCB07">Mobile Apps (Flutter) </h1>
+                    <h1>(Flutter) </h1>
                     <iframe class="youtube" src="https://www.youtube.com/embed/videoseries?list=PLIhcadFe-zD-Z_rJ4-K5Pow0RZFISYuvp">
                     </iframe>
                 </div>
                 <div class="slide four">
-                     <h1 style="color: #15213B">Object Oriented Software Construct (Java) </h1>
+                     <h1 style="color: #15213B !important">(Java) </h1>
                     <iframe class="youtube" src="https://www.youtube.com/embed/videoseries?list=PLIhcadFe-zD9etFf4GogqVbcSIbXLwbtS">
                     </iframe>
                 </div>

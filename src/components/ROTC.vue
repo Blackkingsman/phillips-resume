@@ -11,16 +11,16 @@
         </h1>
         <div class="ROTCcontainer">
 
-            <h2 style="padding: 10px 4%;">WHAT IS ROTC</h2>
+            <h2 style="padding: 10px 4%;">WHAT IS ROTC?</h2>
             <h3 style="font-size:18px; text-align: left;">
                 <sm>The University of Central Oklahoma Army Reserve Officer’s Training Corps (ROTC) is designed to develop and train prospective Army officers. College students take ROTC classes and participate in related activities along with their normal college degree program, becoming an officer cadet and learning valuable leadership skills that are well-suited for either a military or civilian job.</sm>
             </h3>
         </div>
 
-        <div class="ROTCcontainer">
+        <!-- <div class="ROTCcontainer">
             <h2 style="padding: 10px 4%;">WHY I CHOSE ROTC?</h2>
             <h3 style="font-size:18px; text-align: left;"> I chose ROTC because orginally I wanted to go into the U.S Marines enlisted. However, I discovered what the ROTC program could do for my career. This was a hard decision at first, because my dad was a U.S. marine and I wanted to serve as a Marine. I decided to take on the task and earn my degree in Computer Science. So, this way I could become a U.S. Army 2LT upon my graduation.</h3>
-        </div>
+        </div> -->
 
         <div class="ROTCcontainer">
             <div class="Fortknoxcontainer">
@@ -34,23 +34,50 @@
             <img class="ROTCimg" src="../images/collage.jpg">
 
         </div>
-        <div class="ROTCcontainer">
-            <h2 style="padding: 10px 4%;">Graduation</h2>
+        <div class="Gradheader">
+            <h2 style="top-margin: 35px">Graduation</h2>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col-md-6 col-12">
+                <h4 >Oath of Office</h4>
+                <div class="photo-container">
+                    <img class="Oathimg" src="../images/oath.jpg">
+                </div>
+                <div class="img-footer">
+                    <h4 >8 May 2020</h4>
+                    <p>In this picture, I branched as a Armor Officer and recieved my 2LT Rank(Gold Bar)</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-12 " wid>
+                <h4 >First Salute</h4>
+                <div class="photo-container">
+                    <img class="Oathimg" src="../images/firstsalute.jpg">
+                </div>
+                <div class="img-footer">
+                    <h4>SPC LUIS LOPEZ</h4>
+                    <p>It is a tradition in our Army that newly commissioned second lieutenants present a silver dollar to the first enlisted Soldier who salutes them. The coin symbolically acknowledges the receipt of respect due the new rank and position.</p>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="GraduationPhotos" style="display: inline-block">
             <h4 style="font-size: 16px;">Oath of Office</h4>
-            <img class="Oathimg" src="../images/oath.jpg">
+            <div class="photo-container">
+                <img class="Oathimg" src="../images/oath.jpg">
+            </div>
             <div class="img-footer">
                 <h4 style="font-size: 16px;">8 May 2020</h4>
-                <p>On this day I became a 2LT in the U.S Army Reserve. Upon my completion of Armor school I will be offically an Armor Officer.</p>
             </div>
-        </div>
-        <div class="ROTCcontainer">
+        </div> -->
+        <!-- <div class="GraduationPhotos" style="display: inline-block">
             <h4 style="font-size: 16px;">First Salute</h4>
-            <img class="Oathimg" src="../images/firstsalute.jpg">
+            <div class="photo-container">
+                <img class="Oathimg" src="../images/firstsalute.jpg">
+            </div>
             <div class="img-footer">
                 <h4 style="font-size: 16px;">SPC LUIS LOPEZ</h4>
-                <p>It is a tradition in our Army that newly commissioned second lieutenants present a silver dollar to the first enlisted Soldier who salutes them.</p>
+
             </div>
-        </div>
+        </div> -->
     </section>
 </div>
 </template>
@@ -64,6 +91,10 @@ export default {
 </script>
 
 <style>
+
+h4{
+    margin: 20px !important;
+}
 .body {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
@@ -79,11 +110,18 @@ export default {
 
 .ROTCcontainer {
     width: 50vw;
-    margin: 0 auto;
+    margin: 40px auto;
 }
-.img-footer {
-    width: 20vw;
+
+.GraduationPhotos {
+    flex-wrap: wrap;
+    display: inline-block
+}
+
+.img-footer p {
+    width: 75%;
     margin: 0 auto;
+    text-align: center;
 }
 
 .Fortknoxcontainer {
@@ -97,9 +135,15 @@ export default {
     margin: 0 auto;
 }
 
+.photo-container {
+    height: 400px;
+}
+h4{
+    font-size: x-large;
+}
 .Oathimg {
-    width: 50vw;
-    max-height: 700px;
-    margin: 0 auto;
+    width: auto;
+    max-width: 60vw;
+    max-height: 100%;
 }
 </style>
