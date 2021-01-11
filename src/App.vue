@@ -5,6 +5,7 @@
    <ROTC id="ROTC"/>
    <Projects id="Projects"/>
    <Skills id ="Skills"/>
+   <Employment id="Employment"/>
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import Profile from './components/PROFILE'
 import ROTC from './components/ROTC'
 import Projects from './components/PROJECTS'
 import Skills from './components/SKIlls'
+import Employment from './components/EmploymentHistory'
 export default {
   name: 'App',
   components: {
@@ -21,7 +23,8 @@ export default {
     Profile,
     ROTC,
     Projects,
-    Skills
+    Skills,
+    Employment
   }
 }
 </script>

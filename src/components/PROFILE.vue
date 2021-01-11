@@ -62,7 +62,8 @@ export default {
 .parallax1,
 .parallax2,
 .parallax3,
-.parallax4 {
+.parallax4,
+.parallax5 {
     position: relative;
     opacity: .75;
     background-repeat: no-repeat;

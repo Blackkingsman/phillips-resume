@@ -1,6 +1,6 @@
 <template>
 <div class="body">
-    <div class="parallax4">
+    <div class="parallax5">
         <div class="header">
             Skills
         </div>
@@ -284,7 +284,7 @@ i:nth-child(1) {
     color: #15213B !important;
 }
 
-.parallax4 {
+.parallax5 {
     background-image: url("../images/skills.jpeg");
     min-height: 35vh;
 
