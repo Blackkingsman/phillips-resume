@@ -16,7 +16,7 @@
             <div class="row" style="width: 100vw !important">
                 <div class="column">
                     <h3 style="color:#FBCB07; text-align: center !important">About Me</h3>
-                    <p>I’ve set up 50,001 words of Lorem Ipsum which is a dummy text that printers use. You can copy this text and then past it into the verification box. This will verify you as a winner and, once you’ve done that, you can just go back to manually updating your word count and your bar will stay purple. Obviously, this isn’t for people who didn’t write 50,000 words to pretend they won NaNoWriMo (Who would cheat on a self-challenge like this? What would be the point?) rather for those that legitimately wrote over 50,000 words but don’t have them handy for easy copy and paste verification.</p>
+                    <p align="left">Hello, my name is Terry Don Phillips Jr. I'm 22 years old, and I'm currently serving my country as a 19A (Tank Officer) and hold a rank of 2LT (Second Lieutenant). It has always been a goal of mine to serve my country! Additionally, I was born in Shawnee, OK, but was raised in Seminole, OK, Siloam Springs, Ar, and Edmond, OK. I have two sisters, Zarria and Alexis, and a dog named Max. I've been fascinated with technology from a very young age. However, when I reached the 9th grade, I desired to pursue a degree in computer science and join the military.  I want to work for a company that can respect my choice of serving in the military while working within the company as a developer/leader.</p>
                 </div>
                 <div class="column">
                             <img class="img-responsive" src="../images/headshots.png" alt="Avatar">
